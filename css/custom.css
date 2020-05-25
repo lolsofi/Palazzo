@@ -7,15 +7,6 @@
   .h5-nrab {
     display: none;
   }
-  
-  .colum {
-    margin-bottom: 10px;
-  }
-
-  .s-why {
-    display: flex;
-    flex-flow: wrap;
-  }
 
   .tab__slider-big .tab__img:after {
     content: '';
@@ -29,6 +20,25 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
-    opacity: .4;
+    opacity: .6;
+  }
+  
+  .colum {
+    margin-bottom: 10px;
+  }
+
+  .s-indr .tab__slider .tab__img.img-bg:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../img/svg/zoom.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    opacity: .6;
   }
 }
