@@ -564,19 +564,19 @@ jQuery(document).ready(function ($) {
         });
 
 
-        th.find('.tab__slide-slider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-          speed: 450,
-          infinite: true,
-          loop: true,
-          arrows: true,
-          prevArrow: arrl2,
-          nextArrow: arrr2,
-          adaptiveHeight: true,
+        // th.find('.tab__slide-slider').slick({
+        //   slidesToShow: 1,
+        //   slidesToScroll: 1,
+        //   dots: false,
+        //   speed: 450,
+        //   infinite: true,
+        //   loop: true,
+        //   arrows: true,
+        //   prevArrow: arrl2,
+        //   nextArrow: arrr2,
+        //   adaptiveHeight: true,
 
-        });
+        // });
 
 
         th.find('.tab__slider-big').slick({
@@ -586,26 +586,10 @@ jQuery(document).ready(function ($) {
           speed: 450,
           infinite: true,
           loop: true,
-          arrows: false,
-          draggable: false,
-          swipe: false,
+          prevArrow: arrl2,
+          nextArrow: arrr2,
           adaptiveHeight: true,
           asNavFor: th.find('.tab__slider-small'),
-          responsive: [
-
-            {
-              breakpoint: 991,
-              settings: {
-                draggable: true,
-                swipe: true,
-                arrows: true,
-                prevArrow: arrl2,
-                nextArrow: arrr2,
-
-              }
-
-            }
-          ]
         });
 
         th.find('.tab__slider-small').slick({
